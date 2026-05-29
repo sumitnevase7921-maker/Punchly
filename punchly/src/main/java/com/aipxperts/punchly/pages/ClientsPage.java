@@ -19,7 +19,7 @@ public class ClientsPage {
     Actions actions;
 
     public ClientsPage(WebDriver driver) {
-        this.driver  = driver;
+       
         this.wait    = new WebDriverWait(driver, Duration.ofSeconds(25));
         this.js      = (JavascriptExecutor) driver;
         this.actions = new Actions(driver);
