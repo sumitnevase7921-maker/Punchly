@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 10 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Punchly_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Punchly Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Punchly_Automation_Suite" class="navigator-link ">
+                    <span>C:\QA Automation\punchly\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Punchly_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Punchly_Automation_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Punchly_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Punchly_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Punchly_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Punchly_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 10 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Punchly_Automation_Suite" class="hide-methods failed suite-Punchly_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Punchly_Automation_Suite -->
+                      <a href="#" panel-name="suite-Punchly_Automation_Suite" class="show-methods failed suite-Punchly_Automation_Suite"> (show)</a> <!-- show-methods failed suite-Punchly_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Punchly_Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc01_LoginWithValidEmailAndOtp">tc01_LoginWithValidEmailAndOtp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc05_StartTimer">tc05_StartTimer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc06_StopTimer">tc06_StopTimer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc07_VerifyEntryCreation">tc07_VerifyEntryCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc09_StartWithoutTask">tc09_StartWithoutTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc10_EditTaskFromEntry">tc10_EditTaskFromEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc11_DeleteEntry">tc11_DeleteEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc12_DuplicateEntry">tc12_DuplicateEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc13_ResumeTimerFromEntry">tc13_ResumeTimerFromEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc14_TimerPersistenceOnRefresh">tc14_TimerPersistenceOnRefresh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Punchly_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Punchly_Automation_Suite" class="hide-methods passed suite-Punchly_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Punchly_Automation_Suite -->
+                      <a href="#" panel-name="suite-Punchly_Automation_Suite" class="show-methods passed suite-Punchly_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Punchly_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Punchly_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc02_VerifyTimeTrackerLoad">tc02_VerifyTimeTrackerLoad</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc03_SelectProject">tc03_SelectProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc04_EnterTask">tc04_EnterTask</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc08_StartWithoutProject">tc08_StartWithoutProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Punchly_Automation_Suite" title="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest" class="method navigator-link" hash-for-method="tc15_Logout">tc15_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Punchly_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Punchly_Automation_Suite" class="panel Punchly_Automation_Suite">
+          <div class="suite-Punchly_Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.aipxperts.punchly.tests.PunchlyCoreScenariosTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_LoginWithValidEmailAndOtp">
+                  </a> <!-- tc01_LoginWithValidEmailAndOtp -->
+                  <span class="method-name">tc01_LoginWithValidEmailAndOtp</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: email (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.utils.Waits.visible(Waits.java:21)
+	at com.aipxperts.punchly.pages.LoginPage.openLoginPageAndLoginWithDefaultUser(LoginPage.java:93)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc01_LoginWithValidEmailAndOtp(PunchlyCoreScenariosTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-01 [E2E|UI|Functional|Smoke|Auth] Login with valid email & OTP)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc05_StartTimer">
+                  </a> <!-- tc05_StartTimer -->
+                  <span class="method-name">tc05_StartTimer</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.aipxperts.punchly.pages.TimeTrackerPage$$Lambda$684/0x0000021f9a2681f0@1150d471 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.waitUntilStopButtonPresent(TimeTrackerPage.java:379)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc05_StartTimer(PunchlyCoreScenariosTest.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-05 [E2E|UI|Functional|Smoke] Start timer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc06_StopTimer">
+                  </a> <!-- tc06_StopTimer -->
+                  <span class="method-name">tc06_StopTimer</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder=&apos;Search Project, Task, or Client&apos; or contains(@placeholder,&apos;Search&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.utils.Waits.visible(Waits.java:21)
+	at com.aipxperts.punchly.utils.Waits.type(Waits.java:33)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.searchProject(TimeTrackerPage.java:116)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc06_StopTimer(PunchlyCoreScenariosTest.java:130)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-06 [E2E|UI|Functional|Smoke] Stop timer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc07_VerifyEntryCreation">
+                  </a> <!-- tc07_VerifyEntryCreation -->
+                  <span class="method-name">tc07_VerifyEntryCreation</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.aipxperts.punchly.pages.TimeTrackerPage$$Lambda$684/0x0000021f9a2681f0@5d92e8e2 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.waitUntilStopButtonPresent(TimeTrackerPage.java:379)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc07_VerifyEntryCreation(PunchlyCoreScenariosTest.java:151)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-07 [E2E|UI|Functional|Smoke|CRUD-read] Verify entry creation)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc09_StartWithoutTask">
+                  </a> <!-- tc09_StartWithoutTask -->
+                  <span class="method-name">tc09_StartWithoutTask</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder=&apos;Search Project, Task, or Client&apos; or contains(@placeholder,&apos;Search&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.utils.Waits.visible(Waits.java:21)
+	at com.aipxperts.punchly.utils.Waits.type(Waits.java:33)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.searchProject(TimeTrackerPage.java:116)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc09_StartWithoutTask(PunchlyCoreScenariosTest.java:179)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-09 [E2E|UI|Validation|Regression] Start without task (config-dependent))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc10_EditTaskFromEntry">
+                  </a> <!-- tc10_EditTaskFromEntry -->
+                  <span class="method-name">tc10_EditTaskFromEntry</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.aipxperts.punchly.pages.TimeTrackerPage$$Lambda$684/0x0000021f9a2681f0@727f36dd (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.waitUntilStopButtonPresent(TimeTrackerPage.java:379)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc10_EditTaskFromEntry(PunchlyCoreScenariosTest.java:199)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-10 [E2E|UI|Functional|Regression|CRUD-update] Edit task from entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc11_DeleteEntry">
+                  </a> <!-- tc11_DeleteEntry -->
+                  <span class="method-name">tc11_DeleteEntry</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder=&apos;Search Project, Task, or Client&apos; or contains(@placeholder,&apos;Search&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.utils.Waits.visible(Waits.java:21)
+	at com.aipxperts.punchly.utils.Waits.type(Waits.java:33)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.searchProject(TimeTrackerPage.java:116)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc11_DeleteEntry(PunchlyCoreScenariosTest.java:215)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-11 [E2E|UI|Functional|Regression|CRUD-delete] Delete entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc12_DuplicateEntry">
+                  </a> <!-- tc12_DuplicateEntry -->
+                  <span class="method-name">tc12_DuplicateEntry</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.aipxperts.punchly.pages.TimeTrackerPage$$Lambda$684/0x0000021f9a2681f0@78c5ef58 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.waitUntilStopButtonPresent(TimeTrackerPage.java:379)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc12_DuplicateEntry(PunchlyCoreScenariosTest.java:244)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-12 [E2E|UI|Functional|Regression] Duplicate entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc13_ResumeTimerFromEntry">
+                  </a> <!-- tc13_ResumeTimerFromEntry -->
+                  <span class="method-name">tc13_ResumeTimerFromEntry</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@placeholder=&apos;Search Project, Task, or Client&apos; or contains(@placeholder,&apos;Search&apos;)] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.utils.Waits.visible(Waits.java:21)
+	at com.aipxperts.punchly.utils.Waits.type(Waits.java:33)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.searchProject(TimeTrackerPage.java:116)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc13_ResumeTimerFromEntry(PunchlyCoreScenariosTest.java:263)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-13 [E2E|UI|Functional|Regression] Resume timer from entry)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc14_TimerPersistenceOnRefresh">
+                  </a> <!-- tc14_TimerPersistenceOnRefresh -->
+                  <span class="method-name">tc14_TimerPersistenceOnRefresh</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.aipxperts.punchly.pages.TimeTrackerPage$$Lambda$684/0x0000021f9a2681f0@17a89cb1 (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.17&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 146.0.7680.153 (85fd829a1b2..., userDataDir: C:\Users\AIP-28~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49712}, goog:processID: 20332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49712/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62519696c3a5e05c15adf363070a66f5
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.aipxperts.punchly.pages.TimeTrackerPage.waitUntilStopButtonPresent(TimeTrackerPage.java:379)
+	at com.aipxperts.punchly.tests.PunchlyCoreScenariosTest.tc14_TimerPersistenceOnRefresh(PunchlyCoreScenariosTest.java:287)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(TC-14 [E2E|UI|Functional|Regression|State-persistence] Timer after refresh)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Punchly_Automation_Suite-class-failed -->
+          <div class="suite-Punchly_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.aipxperts.punchly.tests.PunchlyCoreScenariosTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_VerifyTimeTrackerLoad">
+                  </a> <!-- tc02_VerifyTimeTrackerLoad -->
+                  <span class="method-name">tc02_VerifyTimeTrackerLoad</span>
+                  <em>
+(TC-02 [E2E|UI|Functional|Smoke] Time Tracker / top bar visible)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc03_SelectProject">
+                  </a> <!-- tc03_SelectProject -->
+                  <span class="method-name">tc03_SelectProject</span>
+                  <em>
+(TC-03 [E2E|UI|Functional|Smoke] Select project)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc04_EnterTask">
+                  </a> <!-- tc04_EnterTask -->
+                  <span class="method-name">tc04_EnterTask</span>
+                  <em>
+(TC-04 [E2E|UI|Functional|Smoke] Enter task / description field)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc08_StartWithoutProject">
+                  </a> <!-- tc08_StartWithoutProject -->
+                  <span class="method-name">tc08_StartWithoutProject</span>
+                  <em>
+(TC-08 [E2E|UI|Negative|Validation|Regression] Start without project)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc15_Logout">
+                  </a> <!-- tc15_Logout -->
+                  <span class="method-name">tc15_Logout</span>
+                  <em>
+(TC-15 [E2E|UI|Functional|Regression|Auth-session] Logout)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Punchly_Automation_Suite-class-passed -->
+        </div> <!-- panel Punchly_Automation_Suite -->
+        <div panel-name="test-xml-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\QA Automation\punchly\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Punchly Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.aipxperts.punchly.listeners.ScreenshotOnFailureListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;PunchlyCoreScenarios&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.aipxperts.punchly.tests.PunchlyCoreScenariosTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PunchlyCoreScenarios --&gt;
+&lt;/suite&gt; &lt;!-- Punchly Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Punchly Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PunchlyCoreScenarios (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Punchly Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc08_StartWithoutProject</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc09_StartWithoutTask</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc10_EditTaskFromEntry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc11_DeleteEntry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc12_DuplicateEntry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc13_ResumeTimerFromEntry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc14_TimerPersistenceOnRefresh</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc15_Logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc01_LoginWithValidEmailAndOtp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc02_VerifyTimeTrackerLoad</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc03_SelectProject</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc04_EnterTask</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc05_StartTimer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc06_StopTimer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">tc07_VerifyEntryCreation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Punchly Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Punchly_Automation_Suite');
+function tableData_Punchly_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc14_TimerPersistenceOnRefresh')
+data.setCell(0, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(0, 3, 45239);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc07_VerifyEntryCreation')
+data.setCell(1, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(1, 3, 42997);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc05_StartTimer')
+data.setCell(2, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(2, 3, 42894);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc12_DuplicateEntry')
+data.setCell(3, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(3, 3, 42706);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc10_EditTaskFromEntry')
+data.setCell(4, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(4, 3, 42617);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc03_SelectProject')
+data.setCell(5, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(5, 3, 41862);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc09_StartWithoutTask')
+data.setCell(6, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(6, 3, 41112);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc13_ResumeTimerFromEntry')
+data.setCell(7, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(7, 3, 40937);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc11_DeleteEntry')
+data.setCell(8, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(8, 3, 40600);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc06_StopTimer')
+data.setCell(9, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(9, 3, 40560);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc15_Logout')
+data.setCell(10, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(10, 3, 21667);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc01_LoginWithValidEmailAndOtp')
+data.setCell(11, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(11, 3, 21359);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc08_StartWithoutProject')
+data.setCell(12, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(12, 3, 10927);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc04_EnterTask')
+data.setCell(13, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(13, 3, 1478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc02_VerifyTimeTrackerLoad')
+data.setCell(14, 2, 'com.aipxperts.punchly.tests.PunchlyCoreScenariosTest')
+data.setCell(14, 3, 185);
+window.suiteTableData['Punchly_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Punchly_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Punchly_Automation_Suite">
+              </div> <!-- times-div-Punchly_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Punchly Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Punchly_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.aipxperts.punchly.tests.PunchlyCoreScenariosTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">3943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc01_LoginWithValidEmailAndOtp</span>
+                <span class="method-start">10366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">31896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_VerifyTimeTrackerLoad</span>
+                <span class="method-start">38117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">38307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc03_SelectProject</span>
+                <span class="method-start">44526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">86389 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc04_EnterTask</span>
+                <span class="method-start">92686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">94172 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc05_StartTimer</span>
+                <span class="method-start">100441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">143459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc06_StopTimer</span>
+                <span class="method-start">149730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">190477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc07_VerifyEntryCreation</span>
+                <span class="method-start">196744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">239859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc08_StartWithoutProject</span>
+                <span class="method-start">246084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">257014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc09_StartWithoutTask</span>
+                <span class="method-start">263248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">304472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc10_EditTaskFromEntry</span>
+                <span class="method-start">310669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">353408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc11_DeleteEntry</span>
+                <span class="method-start">359634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">400361 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc12_DuplicateEntry</span>
+                <span class="method-start">406635 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">449474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc13_ResumeTimerFromEntry</span>
+                <span class="method-start">455722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">496873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc14_TimerPersistenceOnRefresh</span>
+                <span class="method-start">503129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">prepareSession</span>
+                <span class="method-start">548557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc15_Logout</span>
+                <span class="method-start">554848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">576524 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

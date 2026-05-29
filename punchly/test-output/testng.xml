@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Punchly Suite" parallel="false" preserve-order="true">
+
+    <!-- Run TimeTracker First -->
+    <test name="01_TimeTracker">
+        <classes>
+            <class name="com.aipxperts.punchly.tests.TimeTrackerTest"/>
+        </classes>
+    </test>
+
+    <!-- Run Timesheets After -->
+    <test name="02_Timesheets">
+        <classes>
+            <class name="com.aipxperts.punchly.tests.TimesheetsTest"/>
+        </classes>
+    </test>
+
+</suite>

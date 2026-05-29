@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Punchly Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.aipxperts.punchly.listeners.ScreenshotListener"/>
+  </listeners>
+  <test thread-count="5" name="Punchly All Tests(failed)">
+    <classes>
+      <class name="com.aipxperts.punchly.tests.LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_LOGIN_005_verifyOTPScreen"/>
+          <include name="tearDown"/>
+          <include name="TC_LOGIN_001_validLogin"/>
+          <include name="TC_LOGIN_004_forgotPassword"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.LoginTest -->
+      <class name="com.aipxperts.punchly.tests.TimeTrackerTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testTimeTracker"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.TimeTrackerTest -->
+      <class name="com.aipxperts.punchly.tests.TimeOffTest">
+        <methods>
+          <include name="TC_TOF_006_verifySelectStartDate"/>
+          <include name="setup"/>
+          <include name="TC_TOF_003_verifyHolidaysTab"/>
+          <include name="TC_TOF_009_verifyFullTimeOffFlow"/>
+          <include name="TC_TOF_004_verifyRequestTimeOffButton"/>
+          <include name="tearDown"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_TOF_002_verifyAddBalance"/>
+          <include name="TC_TOF_001_verifyOpenTimeOff"/>
+          <include name="TC_TOF_005_verifySelectPolicy"/>
+          <include name="TC_TOF_008_verifyEnterNote"/>
+          <include name="TC_TOF_007_verifySelectEndDate"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.TimeOffTest -->
+      <class name="com.aipxperts.punchly.tests.TasksTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_TSK_004_verifySearchInAllProjectsDropdown"/>
+          <include name="TC_TSK_018_verifyCancelArchive"/>
+          <include name="TC_TSK_005_verifySelectSumitNevaseProject"/>
+          <include name="TC_TSK_007_verifySelectArchived"/>
+          <include name="TC_TSK_014_verifySelectProjectInModal"/>
+          <include name="TC_TSK_020_verifyThreeDotMenu"/>
+          <include name="TC_TSK_010_verifyEnterTaskName"/>
+          <include name="TC_TSK_001_verifyTasksPageOpened"/>
+          <include name="TC_TSK_011_verifyCreateNewTask"/>
+          <include name="TC_TSK_008_verifySelectActive"/>
+          <include name="TC_TSK_009_verifyClickCreateTask"/>
+          <include name="TC_TSK_021_verifyEditFromMenu"/>
+          <include name="tearDown"/>
+          <include name="TC_TSK_006_verifyActiveDropdown"/>
+          <include name="TC_TSK_015_verifyAssignAssignee"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_TSK_022_verifyDeleteFromMenu"/>
+          <include name="TC_TSK_012_verifyCheckboxClick"/>
+          <include name="TC_TSK_002_verifySearchByName"/>
+          <include name="TC_TSK_003_verifyAllProjectsDropdown"/>
+          <include name="TC_TSK_019_verifyClearButton"/>
+          <include name="TC_TSK_016_verifySelectAssigneeInModal"/>
+          <include name="TC_TSK_023_verifyArchiveFromMenu"/>
+          <include name="TC_TSK_017_verifyArchiveBulk"/>
+          <include name="TC_TSK_013_verifyAssignProject"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.TasksTest -->
+      <class name="com.aipxperts.punchly.tests.ExpensesTest">
+        <methods>
+          <include name="TC_EXP_005_verifyCreateExpense"/>
+          <include name="setup"/>
+          <include name="TC_EXP_001_verifyOpenExpenses"/>
+          <include name="tearDown"/>
+          <include name="TC_EXP_007_verifyFinalSubmit"/>
+          <include name="TC_EXP_004_verifyFillExpenseForm"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_EXP_002_verifyManageCategories"/>
+          <include name="TC_EXP_006_verifySubmitForApproval"/>
+          <include name="TC_EXP_003_verifyAddExpenseButton"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.ExpensesTest -->
+      <class name="com.aipxperts.punchly.tests.InvoicesTest">
+        <methods>
+          <include name="TC_INV_034_verifyExportDropdownOpens"/>
+          <include name="setup"/>
+          <include name="TC_INV_001_verifyInvoicesPageOpened"/>
+          <include name="TC_INV_003_verifyDownloadInvoiceButton"/>
+          <include name="TC_INV_013_verifyCreateInvoiceModalOpens"/>
+          <include name="TC_INV_018_verifyCreateInvoiceCancel"/>
+          <include name="TC_INV_030_verifySettingsAppearanceTab"/>
+          <include name="TC_INV_006_verifyInvoiceDetailThreeDotMenu"/>
+          <include name="TC_INV_007_verifyImportTimeAndExpenses"/>
+          <include name="TC_INV_005_verifyRecurringSettingsButton"/>
+          <include name="TC_INV_024_verifyFilterAmountMinMax"/>
+          <include name="TC_INV_022_verifyFilterStatusDropdown"/>
+          <include name="TC_INV_014_verifyClientDropdownOpens"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_INV_037_verifyExportToExcel"/>
+          <include name="TC_INV_004_verifySendInvoiceButton"/>
+          <include name="TC_INV_010_verifyAddTax"/>
+          <include name="tearDown"/>
+          <include name="TC_INV_021_verifyFilterClientDropdown"/>
+          <include name="TC_INV_023_verifySelectFilterStatusDraft"/>
+          <include name="TC_INV_016_verifyCurrencyDropdownOpens"/>
+          <include name="TC_INV_008_verifyAddNewItem"/>
+          <include name="TC_INV_035_verifyExportToCsv"/>
+          <include name="TC_INV_019_verifyFullCreateInvoiceFlow"/>
+          <include name="TC_INV_002_verifyClickInvoiceIdOpensDetail"/>
+          <include name="TC_INV_009_verifyAddDiscount"/>
+          <include name="TC_INV_028_verifySettingsPageOpens"/>
+          <include name="TC_INV_020_verifyFilterPanelOpens"/>
+          <include name="TC_INV_036_verifyExportToPdf"/>
+          <include name="TC_INV_027_verifyFilterClearAll"/>
+          <include name="TC_INV_015_verifySearchAndSelectClient"/>
+          <include name="TC_INV_029_verifySettingsDefaultsTab"/>
+          <include name="TC_INV_026_verifyFilterCancel"/>
+          <include name="TC_INV_031_verifySettingsEmailsTab"/>
+          <include name="TC_INV_012_verifyBreadcrumbNavigatesBack"/>
+          <include name="TC_INV_032_verifySettingsTranslationsTab"/>
+          <include name="TC_INV_033_verifyNavigateBackFromSettings"/>
+          <include name="TC_INV_011_verifyEnterInvoiceNote"/>
+          <include name="TC_INV_017_verifyDueDateDropdown"/>
+          <include name="TC_INV_025_verifyApplyFilter"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.InvoicesTest -->
+      <class name="com.aipxperts.punchly.tests.DashboardTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testDashboard"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.DashboardTest -->
+      <class name="com.aipxperts.punchly.tests.ProjectsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_PRJ_003_verifySearchClientInAllDropdown"/>
+          <include name="TC_PRJ_009_verifyNewProjectButtonClick"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_PRJ_015_verifyArchive"/>
+          <include name="TC_PRJ_005_verifyActiveDropdownOpens"/>
+          <include name="TC_PRJ_011_verifyCreateNewProject"/>
+          <include name="TC_PRJ_002_verifyAllDropdownOpens"/>
+          <include name="TC_PRJ_014_verifyEdit"/>
+          <include name="TC_PRJ_006_verifySelectArchived"/>
+          <include name="TC_PRJ_008_verifySearchProject"/>
+          <include name="TC_PRJ_010_verifyEnterProjectName"/>
+          <include name="TC_PRJ_013_verifyViewDetails"/>
+          <include name="tearDown"/>
+          <include name="TC_PRJ_012_verifyThreeDotMenuOpens"/>
+          <include name="TC_PRJ_001_verifyProjectsPageOpened"/>
+          <include name="TC_PRJ_007_verifySelectActive"/>
+          <include name="TC_PRJ_004_verifySelectAipxpertsClient"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.ProjectsTest -->
+      <class name="com.aipxperts.punchly.tests.ReportsTest">
+        <methods>
+          <include name="TC_REP_008_verifyExpenseReportTab"/>
+          <include name="tearDown"/>
+          <include name="TC_REP_001_verifyTimeReportTab"/>
+          <include name="setup"/>
+          <include name="TC_REP_007_verifyTeamReportAssignments"/>
+          <include name="TC_REP_005_verifyTeamReportTab"/>
+          <include name="TC_REP_002_verifyTimeReportSummary"/>
+          <include name="TC_REP_003_verifyTimeReportSummaryExport"/>
+          <include name="TC_REP_004_verifyTimeReportDetailed"/>
+          <include name="TC_REP_009_verifyExpenseReportExport"/>
+          <include name="TC_REP_006_verifyTeamReportAttendance"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.ReportsTest -->
+      <class name="com.aipxperts.punchly.tests.TeamTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_TM_021_verifySelectManagerRole"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_TM_018_verifyRoleFilterDropdown"/>
+          <include name="TC_TM_017_verifyCostRateFilterDropdown"/>
+          <include name="TC_TM_007_verifyEnterBillableRate"/>
+          <include name="TC_TM_012_verifyCancelCostRate"/>
+          <include name="TC_TM_006_verifyBillableRateChangeBtn"/>
+          <include name="TC_TM_005_verifyCancelInviteModal"/>
+          <include name="TC_TM_003_verifyAddTeamMemberButton"/>
+          <include name="TC_TM_013_verifyFilterButtonOpens"/>
+          <include name="TC_TM_014_verifyBillableRateFilterDropdown"/>
+          <include name="tearDown"/>
+          <include name="TC_TM_023_verifyShowInactiveMembers"/>
+          <include name="TC_TM_015_verifySelectHasRateBillable"/>
+          <include name="TC_TM_008_verifyAllPastFutureRadio"/>
+          <include name="TC_TM_002_verifySearchByNameOrEmail"/>
+          <include name="TC_TM_010_verifyCostRateChangeBtn"/>
+          <include name="TC_TM_022_verifySelectMemberRole"/>
+          <include name="TC_TM_011_verifyEnterCostRate"/>
+          <include name="TC_TM_024_verifyApplyFilter"/>
+          <include name="TC_TM_025_verifyClearFilter"/>
+          <include name="TC_TM_001_verifyTeamPageOpened"/>
+          <include name="TC_TM_019_verifySelectOwnerRole"/>
+          <include name="TC_TM_004_verifyEnterInviteEmail"/>
+          <include name="TC_TM_009_verifyCancelBillableRate"/>
+          <include name="TC_TM_016_verifySelectNoRateBillable"/>
+          <include name="TC_TM_026_verifyExportButton"/>
+          <include name="TC_TM_020_verifySelectAdminRole"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.TeamTest -->
+      <class name="com.aipxperts.punchly.tests.TimesheetsTest">
+        <methods>
+          <include name="TC_TS_002_verifyAddRow"/>
+          <include name="TC_TS_004_verifyTodayColumnClick"/>
+          <include name="setup"/>
+          <include name="TC_TS_001_verifyTimesheetsPageLoad"/>
+          <include name="TC_TS_005_verifyTimeEntry"/>
+          <include name="pageSetup"/>
+          <include name="tearDown"/>
+          <include name="TC_TS_008_verifyWithdrawSubmission"/>
+          <include name="TC_TS_003_verifyProjectSelection"/>
+          <include name="TC_TS_007_verifySubmitForApproval"/>
+          <include name="TC_TS_006_verifySave"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.TimesheetsTest -->
+      <class name="com.aipxperts.punchly.tests.KiosksTest">
+        <methods>
+          <include name="TC_KSK_019_verifyMenuDelete"/>
+          <include name="setup"/>
+          <include name="TC_KSK_015_verifyThreeDotMenuOpens"/>
+          <include name="TC_KSK_020_verifyLaunchKioskOpensKioskPage"/>
+          <include name="TC_KSK_006_verifyCreateKioskModalOpens"/>
+          <include name="TC_KSK_004_verifySelectInactiveStatus"/>
+          <include name="TC_KSK_003_verifySelectActiveStatus"/>
+          <include name="TC_KSK_001_verifyKiosksPageOpened"/>
+          <include name="TC_KSK_014_verifyFullCreateKioskFlow"/>
+          <include name="TC_KSK_011_verifySelectSessionTimeout1Hour"/>
+          <include name="TC_KSK_010_verifySessionTimeoutDropdownOpens"/>
+          <include name="TC_KSK_018_verifyMenuDeactivate"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_KSK_005_verifySearchBarAcceptsInput"/>
+          <include name="TC_KSK_007_verifyEnterKioskName"/>
+          <include name="TC_KSK_012_verifySelectSessionTimeout24Hours"/>
+          <include name="TC_KSK_016_verifyMenuCopyUrl"/>
+          <include name="TC_KSK_008_verifyAssigneesDropdownOpens"/>
+          <include name="TC_KSK_009_verifyDefaultProjectDropdownOpens"/>
+          <include name="tearDown"/>
+          <include name="TC_KSK_013_verifyCancelCreateModal"/>
+          <include name="TC_KSK_017_verifyMenuEdit"/>
+          <include name="TC_KSK_021_verifyKioskMemberSearch"/>
+          <include name="TC_KSK_022_verifyKioskMemberClick"/>
+          <include name="TC_KSK_002_verifyStatusDropdownOpens"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.KiosksTest -->
+      <class name="com.aipxperts.punchly.tests.ActivityTest">
+        <methods>
+          <include name="TC_ACT_017_verifySelectLastMonth"/>
+          <include name="TC_ACT_003_verifyScreenshotsTabClick"/>
+          <include name="setup"/>
+          <include name="TC_ACT_013_verifySelectYesterday"/>
+          <include name="TC_ACT_011_verifyDateRangeDropdownOpens"/>
+          <include name="TC_ACT_016_verifySelectThisMonth"/>
+          <include name="TC_ACT_002_verifyMonitoringDisabledBanner"/>
+          <include name="TC_ACT_004_verifyNoScreenshotsMessage"/>
+          <include name="TC_ACT_010_verifyNoLocationMessage"/>
+          <include name="TC_ACT_015_verifySelectLastWeek"/>
+          <include name="TC_ACT_019_verifySelectCustomRange"/>
+          <include name="TC_ACT_008_verifyCalendarNextMonth"/>
+          <include name="TC_ACT_006_verifySelectDateFromCalendar"/>
+          <include name="TC_ACT_014_verifySelectThisWeek"/>
+          <include name="TC_ACT_012_verifySelectToday"/>
+          <include name="TC_ACT_018_verifySelectThisYear"/>
+          <include name="tearDown"/>
+          <include name="TC_ACT_007_verifyCalendarPreviousMonth"/>
+          <include name="TC_ACT_009_verifyLocationTabClick"/>
+          <include name="TC_ACT_005_verifyCalendarOpens"/>
+          <include name="TC_ACT_001_verifyActivityPageLoaded"/>
+          <include name="loginAndGoToActivity"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.ActivityTest -->
+      <class name="com.aipxperts.punchly.tests.ApprovalsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_APR_005_verifyApprovedFlow"/>
+          <include name="TC_APR_003_verifyTypeDropdown"/>
+          <include name="TC_APR_001_verifyPageLoad"/>
+          <include name="tearDown"/>
+          <include name="loginAndNavigate"/>
+          <include name="TC_APR_004_verifyStatusDropdown"/>
+          <include name="TC_APR_002_verifySearchBar"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.ApprovalsTest -->
+      <class name="com.aipxperts.punchly.tests.ClientsTest">
+        <methods>
+          <include name="setup"/>
+          <include name="TC_CLT_014_verifyCancelEditModal"/>
+          <include name="TC_CLT_019_verifyBulkClear"/>
+          <include name="TC_CLT_006_verifyCreateNewClientWithEnterKey"/>
+          <include name="TC_CLT_008_verifyEditAllFieldsAndSave"/>
+          <include name="TC_CLT_011_verifyAddCcEmail"/>
+          <include name="TC_CLT_023_verifyMenuDelete"/>
+          <include name="TC_CLT_026_verifyArchivedMenuRestore"/>
+          <include name="TC_CLT_020_verifyThreeDotMenuOpens"/>
+          <include name="TC_CLT_027_verifyArchivedMenuDelete"/>
+          <include name="TC_CLT_007_verifyClickClientNameOpensEditModal"/>
+          <include name="TC_CLT_015_verifySaveEditModal"/>
+          <include name="TC_CLT_004_verifyCreateClientRowActivatesInput"/>
+          <include name="loginAndNavigate"/>
+          <include name="tearDown"/>
+          <include name="TC_CLT_017_verifyBulkArchiveOnlySelectedClient"/>
+          <include name="TC_CLT_022_verifyMenuArchiveOnlyThisClient"/>
+          <include name="TC_CLT_016_verifyCheckboxRevealsBulkBar"/>
+          <include name="TC_CLT_001_verifyClientsPageOpened"/>
+          <include name="TC_CLT_003_verifyArchivedTab"/>
+          <include name="TC_CLT_002_verifyActiveTab"/>
+          <include name="TC_CLT_025_verifyArchivedMenuEdit"/>
+          <include name="TC_CLT_010_verifyEditClientEmail"/>
+          <include name="TC_CLT_012_verifyEditClientAddress"/>
+          <include name="TC_CLT_018_verifyBulkDelete"/>
+          <include name="TC_CLT_021_verifyMenuEditOpensModal"/>
+          <include name="TC_CLT_005_verifyEnterClientName"/>
+          <include name="TC_CLT_013_verifyEditClientNote"/>
+          <include name="TC_CLT_009_verifyEditClientName"/>
+          <include name="TC_CLT_024_verifyArchivedTabThreeDotMenuOpens"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.ClientsTest -->
+    </classes>
+  </test> <!-- Punchly All Tests(failed) -->
+</suite> <!-- Failed suite [Punchly Test Suite] -->

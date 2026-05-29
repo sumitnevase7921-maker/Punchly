@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Punchly Test Suite" parallel="none">
+
+    <!-- Screenshot on failure — works for ALL test classes automatically -->
+    <listeners>
+        <listener class-name="com.aipxperts.punchly.listeners.ScreenshotListener"/>
+    </listeners>
+
+    <test name="Punchly All Tests">
+        <classes>
+            <!-- Order follows sidebar navigation flow -->
+            <class name="com.aipxperts.punchly.tests.LoginTest"/>
+            <class name="com.aipxperts.punchly.tests.DashboardTest"/>
+            <class name="com.aipxperts.punchly.tests.TimeTrackerTest"/>
+            <class name="com.aipxperts.punchly.tests.TimesheetsTest"/>
+            <class name="com.aipxperts.punchly.tests.TimeOffTest"/>
+            <class name="com.aipxperts.punchly.tests.ExpensesTest"/>
+            <class name="com.aipxperts.punchly.tests.ReportsTest"/>
+            <class name="com.aipxperts.punchly.tests.ActivityTest"/>
+            <class name="com.aipxperts.punchly.tests.ProjectsTest"/>
+            <class name="com.aipxperts.punchly.tests.TasksTest"/>
+            <class name="com.aipxperts.punchly.tests.TeamTest"/>
+            <class name="com.aipxperts.punchly.tests.ClientsTest"/>
+            <class name="com.aipxperts.punchly.tests.InvoicesTest"/>
+            <class name="com.aipxperts.punchly.tests.KiosksTest"/>
+            <class name="com.aipxperts.punchly.tests.ApprovalsTest"/>
+       
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,4 @@
+com\aipxperts\punchly\pages\TimeTrackerPage.class
+com\aipxperts\punchly\config\Config.class
+com\aipxperts\punchly\utils\Waits.class
+com\aipxperts\punchly\pages\LoginPage.class

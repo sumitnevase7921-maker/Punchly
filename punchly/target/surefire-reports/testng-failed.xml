@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Punchly Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.aipxperts.punchly.listeners.ScreenshotOnFailureListener"/>
+  </listeners>
+  <test thread-count="5" name="PunchlyCoreScenarios(failed)" verbose="0">
+    <classes>
+      <class name="com.aipxperts.punchly.tests.PunchlyCoreScenariosTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tc07_VerifyEntryCreation"/>
+          <include name="tc14_TimerPersistenceOnRefresh"/>
+          <include name="tearDown"/>
+          <include name="prepareSession"/>
+          <include name="tc05_StartTimer"/>
+          <include name="tc01_LoginWithValidEmailAndOtp"/>
+          <include name="tc06_StopTimer"/>
+          <include name="tc09_StartWithoutTask"/>
+          <include name="tc12_DuplicateEntry"/>
+          <include name="tc13_ResumeTimerFromEntry"/>
+          <include name="tc11_DeleteEntry"/>
+          <include name="tc10_EditTaskFromEntry"/>
+        </methods>
+      </class> <!-- com.aipxperts.punchly.tests.PunchlyCoreScenariosTest -->
+    </classes>
+  </test> <!-- PunchlyCoreScenarios(failed) -->
+</suite> <!-- Failed suite [Punchly Automation Suite] -->
